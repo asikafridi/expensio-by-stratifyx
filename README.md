@@ -63,7 +63,7 @@ To send real email set `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `MAIL
 ### Demo accounts (only with `--demo`)
 | Account | Password |
 |---|---|
-| `rafi@demo.expensio.app`, `nusrat@…`, `tanvir@…` | `Demo!12345a` |
+| `ashik@demo.expensio.app`, `nafil@…`, `sakaria@…`, `dristy@…` | `Demo!12345a` |
 | Super Admin: `SEED_ADMIN_EMAIL` from `.env` | `SEED_ADMIN_PASSWORD` from `.env` |
 
 Staff sign-in always requires an emailed 6-digit code (printed in the terminal in dev).
