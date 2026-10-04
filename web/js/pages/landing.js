@@ -67,7 +67,7 @@ export default async function landing() {
     <div class="card pad-lg glow reveal" data-i="2"><div class="stack">
       <div class="row between"><b>Sunrise Traders</b><span class="badge good">Active</span></div>
       <div class="grid g2" style="gap:12px"><div class="kpi"><span class="l">Net profit</span><span class="v money-pos">৳1,24,500</span></div><div class="kpi"><span class="l">Partners</span><span class="v">3</span></div></div>
-      ${[['🦊', 'Ashik', 'Owner · 50%', 'good', 'NID verified'], ['🦄', 'Nafil', 'Partner · 30%', 'good', 'NID verified'], ['🐼', 'Dristy', 'Investor · 20%', 'warn', 'In review']].map(([e, n, r, c, b]) => `<div class="row glass" style="padding:10px 12px;border-radius:16px"><span class="avatar sm">${e}</span><div class="grow"><b>${n}</b><div class="muted" style="font-size:.78rem">${r}</div></div><span class="badge ${c}">${b}</span></div>`).join('')}
+      ${[['🦊', 'Hridoy', 'Owner · 50%', 'good', 'NID verified'], ['🦄', 'Noman', 'Partner · 30%', 'good', 'NID verified'], ['🐼', 'Dristy', 'Investor · 20%', 'warn', 'In review']].map(([e, n, r, c, b]) => `<div class="row glass" style="padding:10px 12px;border-radius:16px"><span class="avatar sm">${e}</span><div class="grow"><b>${n}</b><div class="muted" style="font-size:.78rem">${r}</div></div><span class="badge ${c}">${b}</span></div>`).join('')}
       <div class="secure-note">${icon('lock')}<span>NID: <b class="mono">••••••4821</b> — encrypted with AES-256-GCM. Only compliance staff can review, and every view is logged.</span></div></div></div></div></div></section>
 
   <section class="section"><div class="container"><div class="section-head reveal"><h2>Built on <span class="grad-text">trust & security</span></h2></div>
