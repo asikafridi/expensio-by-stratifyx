@@ -1,0 +1,19 @@
+# Local MongoDB only:        docker compose up -d mongo
+# Full stack (app + mongo):  docker compose up -d --build   (requires a .env file – run "npm run setup" first)
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports: ["127.0.0.1:27017:27017"]
+    volumes: [mongo-data:/data/db]
+  app:
+    build: .
+    restart: unless-stopped
+    depends_on: [mongo]
+    env_file: .env
+    environment:
+      MONGODB_URI: mongodb://mongo:27017/expensio
+      NODE_ENV: production
+    ports: ["5000:5000"]
+volumes:
+  mongo-data:

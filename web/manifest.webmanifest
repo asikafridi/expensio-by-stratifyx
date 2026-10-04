@@ -1,0 +1,2 @@
+{ "name": "Expensio by StratifyX Global", "short_name": "Expensio", "start_url": "/", "display": "standalone", "background_color": "#070b18", "theme_color": "#0d1428",
+  "description": "Split expenses. Settle with trust.", "icons": [ { "src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" } ] }
